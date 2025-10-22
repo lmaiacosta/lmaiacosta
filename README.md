@@ -4,14 +4,14 @@
 
 - "I Survive Cobol!"
 
-20 years turning coffee into production-ready systems
+Over 2 decades turning coffee into production-ready systems
 
-## Tech Arsenal
+## Tech Arsenal 
 
 **Cloud & Infrastructure**
 - Pulumi, OpenTofu, Kubernetes, Docker, AWS, GCP, Azure, Digital Ocean, Cloudflare
 - Infrastructure as Code, Container Orchestration, VPC Networks and let say loud and clear Kubernetes smells good!
-- Monitoring, Security, Auto-scaling Solutions
+- Monitoring, Security, Auto-scaling Solutions, PObservability stack
 
 **Frontend Mastery** 
 - Next.js 15 App Router, React, Angular, TypeScript
@@ -67,7 +67,7 @@
 - AI-driven development workflows with MCP servers
 - High-performance, SEO-first web applications
 
-## Connect
+## Connect years
 - Website: [fpinfo.com.br](https://fpinfo.com.br)
 - Company: Arise Cloud Solutions
 - Location: Curitiba, PR - Brazil
