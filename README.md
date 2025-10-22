@@ -10,7 +10,7 @@ Over 2 decades turning coffee into production-ready systems
 
 **Cloud & Infrastructure**
 - Pulumi, OpenTofu, Kubernetes, Docker, AWS, GCP, Azure, Digital Ocean, Cloudflare
-- Infrastructure as Code, Container Orchestration, VPC Networks and let say loud and clear Kubernetes smells good!
+- Infrastructure as Code, Container Orchestration, VPC Networks and let's say loud and clear Kubernetes smells good!
 - Monitoring, Security, Auto-scaling Solutions, PObservability stack
 
 **Frontend Mastery** 
