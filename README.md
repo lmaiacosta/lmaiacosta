@@ -1,15 +1,17 @@
 # Leonardo Maia Costa ⚡
 
-**Badass Agnostic Cloud Fullstack Developer | DevOps Veteran | Two Decades of Battle-Tested Code**
+**Agnostic Cloud Fullstack Developer | DevOps Veteran | Two Decades of IT Heaven and Hell Scenarios**
 
-Curitiba-PR | Full Stack Developer at Arise Cloud Solutions | 20 years turning coffee into production-ready systems
+- "I Survive Cobol!"
 
-## Tech Arsenal
+Over 2 decades turning coffee into production-ready systems
+
+## Tech Arsenal 
 
 **Cloud & Infrastructure**
-- Pulumi, OpenTofu, Kubernetes, Docker, DigitalOcean
-- Infrastructure as Code, Container Orchestration, VPC Networks
-- Monitoring, Security, Auto-scaling Solutions
+- Pulumi, OpenTofu, Kubernetes, Docker, AWS, GCP, Azure, Digital Ocean, Cloudflare
+- Infrastructure as Code, Container Orchestration, VPC Networks and let's say loud and clear Kubernetes smells good!
+- Monitoring, Security, Auto-scaling Solutions, PObservability stack
 
 **Frontend Mastery** 
 - Next.js 15 App Router, React, Angular, TypeScript
@@ -65,7 +67,7 @@ Curitiba-PR | Full Stack Developer at Arise Cloud Solutions | 20 years turning c
 - AI-driven development workflows with MCP servers
 - High-performance, SEO-first web applications
 
-## Connect
+## Connect years
 - Website: [fpinfo.com.br](https://fpinfo.com.br)
 - Company: Arise Cloud Solutions
 - Location: Curitiba, PR - Brazil
