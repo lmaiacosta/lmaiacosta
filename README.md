@@ -1,14 +1,16 @@
 # Leonardo Maia Costa ⚡
 
-**Badass Agnostic Cloud Fullstack Developer | DevOps Veteran | Two Decades of Battle-Tested Code**
+**Agnostic Cloud Fullstack Developer | DevOps Veteran | Two Decades of IT Heaven and Hell Cenários**
 
-Curitiba-PR | Full Stack Developer at Arise Cloud Solutions | 20 years turning coffee into production-ready systems
+- "I Survive Cobol!"
+
+20 years turning coffee into production-ready systems
 
 ## Tech Arsenal
 
 **Cloud & Infrastructure**
-- Pulumi, OpenTofu, Kubernetes, Docker, DigitalOcean
-- Infrastructure as Code, Container Orchestration, VPC Networks
+- Pulumi, OpenTofu, Kubernetes, Docker, AWS, GCP, Azure, Digital Ocean, Cloudflare
+- Infrastructure as Code, Container Orchestration, VPC Networks and let say loud and clear Kubernetes smells good!
 - Monitoring, Security, Auto-scaling Solutions
 
 **Frontend Mastery** 
