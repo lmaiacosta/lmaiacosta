@@ -1,6 +1,6 @@
 # Leonardo Maia Costa ⚡
 
-**Agnostic Cloud Fullstack Developer | DevOps Veteran | Two Decades of IT Heaven and Hell Cenários**
+**Agnostic Cloud Fullstack Developer | DevOps Veteran | Two Decades of IT Heaven and Hell Scenarios**
 
 - "I Survive Cobol!"
 
