@@ -1,6 +1,6 @@
 # Leonardo Maia Costa ⚡
 
-**Cloud-Agnostic Fullstack Developer | DevOps Veteran | Two Decades of IT Solutions**
+**Cloud-Agnostic Fullstack Developer | DevOps | Two Decades of IT Solutions**
 
 [![GitHub followers](https://img.shields.io/github/followers/lmaiacosta?style=social)](https://github.com/lmaiacosta)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue)](https://linkedin.com/in/leonardo-maia-costa)
