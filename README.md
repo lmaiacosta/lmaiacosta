@@ -4,8 +4,7 @@
 
 [![GitHub followers](https://img.shields.io/github/followers/lmaiacosta?style=social)](https://github.com/lmaiacosta)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue)](https://linkedin.com/in/leonardo-maia-costa)
-[![Twitter](https://img.shields.io/badge/Twitter-Follow-blue)](https://twitter.com)
-[![Portfolio](https://img.shields.io/badge/Portfolio-Visit-green)](https://fpinfo.com.br)
+[![Portfolio](https://img.shields.io/badge/Portfolio-Visit-green)](https://arisecloudsoltions.com)
 
 ---
 
