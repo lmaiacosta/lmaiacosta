@@ -1,174 +1,215 @@
-# Leonardo Maia Costa ⚡
+<!-- English · Português abaixo -->
 
-**Cloud-Agnostic Fullstack Developer | DevOps | Two Decades of IT Solutions**
+<div align="center">
 
-[![GitHub followers](https://img.shields.io/github/followers/lmaiacosta?style=social)](https://github.com/lmaiacosta)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue)](https://linkedin.com/in/leonardo-maia-costa)
-[![Portfolio](https://img.shields.io/badge/Portfolio-Visit-green)](https://arisecloudsoltions.com)
+# Leonardo Maia Costa
 
----
+**Senior Fullstack Engineer · Cloud Architect · DevOps · 20+ Years in Production**
 
-## 🚀 Open Source Highlights
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/leonardo-maia-costa)
+[![Portfolio](https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://arisecloudsolutions.com)
+[![GitHub followers](https://img.shields.io/github/followers/lmaiacosta?style=for-the-badge&logo=github&logoColor=white)](https://github.com/lmaiacosta)
 
-### ⭐ Featured Projects
+> **Turning complex distributed systems into reliable, scalable products — across AWS, GCP, Azure & DigitalOcean.**
+>
+> _Open to senior / staff remote positions worldwide_ 🌍
 
-**[🔑 say-goodbye-to-your-local-env](https://github.com/lmaiacosta/say-goodbye-to-your-local-env)**
-> Upload .env files to GitHub Actions Secrets in one command
-- **Language:** Go | **Status:** ⭐ Production Ready
-- **Features:** Smart secret detection, environment prefixes, cross-platform, zero dependencies
-- **Use Case:** Team environments, CI/CD pipelines, secure credential management
-- **Quick Start:** `curl -L ... | bash` for instant installation
-- **Topics:** `automation` `devops` `github-actions` `secrets-management` `ci-cd`
-
-**[📊 auth-and-load-testing-example-microservices](https://github.com/lmaiacosta/auth-and-load-testing-example-microservices)**
-> Complete microservices example with Keycloak authentication, MongoDB, NestJS backend, Angular frontend, and Locust load testing
-- **Language:** TypeScript | **Status:** ⭐ Production Grade
-- **Architecture:** Keycloak (OIDC) → NestJS API → MongoDB + Angular + Locust Testing
-- **Features:** JWT validation, multi-service Docker Compose, load testing, complete documentation
-- **Learning Value:** OAuth2/OIDC flows, microservices patterns, security best practices
-- **Topics:** `microservices` `kubernetes` `keycloak` `nestjs` `angular` `load-testing` `docker`
+</div>
 
 ---
 
-## 💼 Tech Arsenal
+## 🏗️ Architecture at a Glance
 
-### ☁️ Cloud & Infrastructure
-- **IaC Tools:** Pulumi, OpenTofu, Terraform
-- **Container Orchestration:** Kubernetes, Docker, Docker Compose
-- **Cloud Platforms:** AWS, GCP, Azure, DigitalOcean, Cloudflare
-- **DevOps:** Monitoring, Security, Auto-scaling, Observability Stacks
-- **Specialties:** VPC Networks, Container Registries, Multi-cloud deployments
+```mermaid
+graph LR
+    subgraph Cloud["☁️ Multi-Cloud"]
+        AWS["AWS"] --- GCP["GCP"]
+        GCP --- Azure["Azure"]
+        Azure --- DO["DigitalOcean"]
+    end
 
-### 🎨 Frontend Mastery
-- **Frameworks:** Next.js 15 App Router, React, Angular, TypeScript
-- **Styling:** Tailwind CSS 4.1, Responsive Design, Animation
-- **Focus:** SEO-first architectures, High-performance marketing websites
-- **Patterns:** Component libraries, State management, Progressive enhancement
+    subgraph Infra["🛠 IaC & Orchestration"]
+        OT["OpenTofu / Pulumi"] --> K8S["Kubernetes"]
+        GHA["GitHub Actions CI/CD"] --> K8S
+    end
 
-### ⚙️ Backend Domination
-- **Frameworks:** NestJS, Laravel, Node.js, PHP
-- **Architecture:** Microservices, REST APIs, Real-time systems
-- **Specialties:** Authentication systems, Multi-tenant architectures, Event-driven design
-- **Patterns:** SOLID principles, Clean architecture, Domain-driven design
+    subgraph Backend["⚙️ Services"]
+        NestJS["NestJS"] --> MongoDB["MongoDB"]
+        Go["Go CLI Tools"] --> PG["PostgreSQL"]
+        Laravel["Laravel"] --> Kafka["Apache Kafka"]
+    end
 
-### 📊 Data & Integration
-- **Databases:** MongoDB, MySQL, PostgreSQL, Kafka
-- **Solutions:** Lead generation systems, CRM platforms, Document conversion
-- **Real-time:** WebRTC, Socket.io, WebSockets
-- **Integrations:** Third-party APIs, Payment gateways, Analytics
+    subgraph Frontend["🎨 UI Layer"]
+        Next15["Next.js 15 App Router"] --> TW["Tailwind CSS 4"]
+        Angular["Angular"] --> TS["TypeScript"]
+    end
 
-### 🤖 Modern DevOps & Automation
-- **CI/CD:** GitHub Actions, GitLab CI, Jenkins
-- **Load Testing:** Locust, Apache JMeter
-- **Authentication:** Keycloak, OAuth2, OIDC, JWT
-- **AI Integration:** MCP servers, Claude AI workflows
-- **Automation:** Infrastructure as Code, Environment automation
+    subgraph Security["🔐 Auth & Security"]
+        KC["Keycloak / OIDC"] --> JWT["JWT"]
+    end
 
----
+    subgraph AI["🤖 AI & Automation"]
+        MCP["MCP Servers"] --> Claude["Claude AI"]
+        Ollama["Ollama + FLUX"] --> ComfyUI["ComfyUI"]
+    end
 
-## 🏗️ Production-Grade Projects
-
-### 🌐 Enterprise Web Applications
-- **[cachacabiotta](https://github.com/arisecloudsolutions/cachacabiotta)** - Production Cachaça brand website | Next.js 15
-- **[2xlopes](https://github.com/arisecloudsolutions/2xlopes)** - High-performance construction company site | Next.js 15, Tailwind CSS
-- **[arise-website](https://github.com/arisecloudsolutions/arise-website)** - Corporate website | Next.js, SEO-optimized
-- **[arise-pwa](https://github.com/arisecloudsolutions/arise-pwa)** - Progressive Web App | Next.js 16, Multi-language
-
-### 🏛️ Cloud Infrastructure & DevOps
-- **[arise-infra-core](https://github.com/arisecloudsolutions/arise-infra-core)** - Complete infrastructure as code | OpenTofu, Kubernetes, MySQL, VPC
-- **[iac](https://github.com/arisecloudsolutions/iac)** - Pulumi-based Infrastructure | Multi-environment, multi-cloud
-- **[arise-platform-stack](https://github.com/arisecloudsolutions/arise-platform-stack)** - Platform services | Monitoring, security, scaling
-
-### 💼 Enterprise Business Applications
-- **[leadopendata-api](https://github.com/arisecloudsolutions/leadopendata-api)** - Lead generation platform | Brazil CNPJ data, REST API
-- **[leadopendata-app](https://github.com/arisecloudsolutions/leadopendata-app)** - Multi-tenant CRM | Lead management, analytics
-- **[convertstack](https://github.com/arisecloudsolutions/convertstack)** - Document conversion service | 11+ formats, Docker
-- **[arise-dorime](https://github.com/arisecloudsolutions/arise-dorime)** - Church management system | Financial control, modules
-
-### 🛠️ Developer Tools & Frameworks
-- **[arise-mcp-claude](https://github.com/arisecloudsolutions/arise-mcp-claude)** - Claude AI MCP servers | Development tools
-- **[tailadmin-nextjs-pro](https://github.com/arisecloudsolutions/tailadmin-nextjs-pro)** - Admin dashboard | Next.js 15, Tailwind CSS
-
-### 🔄 Microservices & Architecture Examples
-- **[challenge-microservices-laravel-kafka-shoppify](https://github.com/lmaiacosta/challenge-microservices-laravel-kafka-shoppify)** - Event-driven architecture | Laravel, Kafka
-- **[challenge-microservices-chat](https://github.com/lmaiacosta/challenge-microservices-chat)** - Real-time messaging | WebSocket, Microservices
-
----
-
-## 📈 GitHub Statistics
-
-```
-Total Repositories: 57
-├── Public: 8 (14%)
-├── Private: 49 (86%)
-└── Languages: TypeScript, Go, PHP, Python, Kotlin, Dart
-
-Most Used:
-TypeScript (20+ repos)
-Go (5+ repos)
-PHP (4+ repos)
-Python (3+ repos)
+    Cloud --> Infra --> Backend --> Frontend
+    Security --> Backend
+    AI --> Backend
 ```
 
 ---
 
-## 🎓 Current Focus
+## ⭐ Featured Open Source
 
-- 🚀 **Advanced TypeScript patterns** and Next.js 15 optimization
-- 🐳 **Kubernetes orchestration** and cloud-native architectures
-- 🤖 **AI-driven development** workflows with MCP servers and Claude
-- ⚡ **High-performance, SEO-first** web applications
-- 🔐 **Enterprise security patterns** and authentication systems
-- 📊 **Microservices patterns** and distributed system design
-
----
-
-## 🌟 Key Achievements
-
-✅ **20+ years** in software development and IT infrastructure
-✅ **57 repositories** showcasing diverse technical expertise
-✅ **Production deployments** across AWS, GCP, Azure, and DigitalOcean
-✅ **Full-stack expertise** from DevOps to frontend optimization
-✅ **Open source contributions** to multiple ecosystems
-✅ **Mentoring** next-generation developers
-✅ **Complex problem solving** in distributed systems and cloud architecture
+| Project | Stack | What it does |
+|---|---|---|
+| [🔑 say-goodbye-to-your-local-env](https://github.com/lmaiacosta/say-goodbye-to-your-local-env) | `Go` · `GitHub Actions` | Interactive CLI that syncs `.env` files to GitHub Secrets — no more lazy scripts |
+| [📊 auth-and-load-testing-example-microservices](https://github.com/lmaiacosta/auth-and-load-testing-example-microservices) | `NestJS` · `Angular` · `Keycloak` · `Locust` | Reference architecture: full-stack auth + load testing from day one |
+| [🏗️ opentofu-digitalocean-infra-core](https://github.com/lmaiacosta/opentofu-digitalocean-infra-core) | `OpenTofu` · `Kubernetes` · `DigitalOcean` · `Cloudflare` | Production IaC template — VPC + DOKS + MySQL + Registry + DNS |
+| [🤖 ai-vetorial-image-generator](https://github.com/lmaiacosta/ai-vetorial-image-generator) | `Python` · `Ollama` · `ComfyUI` · `FLUX` · `K8s` | AI-powered print-ready image generation API, runs locally or on K8s |
 
 ---
 
-## 🔗 Connect
+## 💡 Expertise Map
 
-- **Website:** [fpinfo.com.br](https://fpinfo.com.br)
-- **Company:** [Arise Cloud Solutions](https://github.com/arisecloudsolutions)
-- **Location:** Curitiba, PR - Brazil
-- **Email:** Contact via GitHub profile
+```mermaid
+mindmap
+  root((Leonardo))
+    Cloud
+      Multi-cloud deployments
+      Kubernetes orchestration
+      Infrastructure as Code
+      VPC · DNS · CDN · Cloudflare
+    Backend
+      Microservices architecture
+      REST · GraphQL APIs
+      Event-driven with Kafka
+      Auth — OIDC / OAuth2 / JWT
+    Frontend
+      Next.js 15 App Router
+      Angular SPAs
+      SEO-first & Core Web Vitals
+      Progressive Web Apps
+    DevOps
+      CI/CD pipelines
+      Load testing — Locust
+      Observability stacks
+      Secret management automation
+    AI
+      MCP Servers
+      Claude AI workflows
+      Local inference — Ollama + FLUX
+```
 
 ---
 
-## 📚 How to Use My Projects
+## 🛠 Tech Stack
 
-All my open-source repositories are free to use and contribute to:
+**Languages**
 
-1. **Learning:** Clone and explore production-grade code
-2. **Contributing:** Submit PRs with improvements and bug fixes
-3. **Forking:** Use as templates for your own projects
-4. **Questions:** Open issues for discussion and feedback
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=white&style=flat-square)
+![Go](https://img.shields.io/badge/Go-00ADD8?logo=go&logoColor=white&style=flat-square)
+![PHP](https://img.shields.io/badge/PHP-777BB4?logo=php&logoColor=white&style=flat-square)
+![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white&style=flat-square)
+
+**Cloud & Infrastructure**
+
+![AWS](https://img.shields.io/badge/AWS-232F3E?logo=amazonaws&logoColor=white&style=flat-square)
+![GCP](https://img.shields.io/badge/GCP-4285F4?logo=googlecloud&logoColor=white&style=flat-square)
+![Azure](https://img.shields.io/badge/Azure-0078D4?logo=microsoftazure&logoColor=white&style=flat-square)
+![DigitalOcean](https://img.shields.io/badge/DigitalOcean-0080FF?logo=digitalocean&logoColor=white&style=flat-square)
+![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?logo=kubernetes&logoColor=white&style=flat-square)
+![Docker](https://img.shields.io/badge/Docker-2496ED?logo=docker&logoColor=white&style=flat-square)
+![OpenTofu](https://img.shields.io/badge/OpenTofu-FFDA18?logo=opentofu&logoColor=black&style=flat-square)
+![Pulumi](https://img.shields.io/badge/Pulumi-8A3391?logo=pulumi&logoColor=white&style=flat-square)
+![Cloudflare](https://img.shields.io/badge/Cloudflare-F38020?logo=cloudflare&logoColor=white&style=flat-square)
+
+**Backend**
+
+![NestJS](https://img.shields.io/badge/NestJS-E0234E?logo=nestjs&logoColor=white&style=flat-square)
+![Node.js](https://img.shields.io/badge/Node.js-339933?logo=nodedotjs&logoColor=white&style=flat-square)
+![Laravel](https://img.shields.io/badge/Laravel-FF2D20?logo=laravel&logoColor=white&style=flat-square)
+![Kafka](https://img.shields.io/badge/Kafka-231F20?logo=apachekafka&logoColor=white&style=flat-square)
+![Keycloak](https://img.shields.io/badge/Keycloak-4D4D4D?logo=keycloak&logoColor=white&style=flat-square)
+
+**Frontend**
+
+![Next.js](https://img.shields.io/badge/Next.js-000000?logo=nextdotjs&logoColor=white&style=flat-square)
+![Angular](https://img.shields.io/badge/Angular-DD0031?logo=angular&logoColor=white&style=flat-square)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind-06B6D4?logo=tailwindcss&logoColor=white&style=flat-square)
+
+**Databases**
+
+![MongoDB](https://img.shields.io/badge/MongoDB-47A248?logo=mongodb&logoColor=white&style=flat-square)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?logo=postgresql&logoColor=white&style=flat-square)
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?logo=mysql&logoColor=white&style=flat-square)
 
 ---
 
-## 🏆 Philosophy
+## 📈 GitHub Stats
 
-> **Battle-ready solutions. Cloud-agnostic architectures. Two decades of turning complex problems into elegant code.**
-
-I believe in:
-- **Clean code** that's easy to maintain and extend
-- **Security first** in every layer of architecture
-- **Scalability** from day one, not as an afterthought
-- **Documentation** that helps others understand quickly
-- **Automation** that frees humans for creative work
-- **Continuous learning** and adapting to new technologies
+<div align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=lmaiacosta&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true" height="160" alt="GitHub Stats"/>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=lmaiacosta&layout=compact&theme=tokyonight&hide_border=true&langs_count=8&count_private=true" height="160" alt="Top Languages"/>
+</div>
 
 ---
 
-**I Survive COBOL! And much more.** 💻
+## 🎯 Current Focus
 
-Made with ❤️ | Building the future one microservice at a time
+- 🏗 **Production Kubernetes** — multi-cloud, cost-optimized workloads
+- 🤖 **AI-driven workflows** — MCP servers, local inference with Ollama + FLUX
+- 🔐 **Enterprise security** — OIDC, Keycloak, zero-trust patterns
+- 📦 **Developer tooling** — Go CLIs that remove friction from CI/CD pipelines
+- ⚡ **High-performance web** — Next.js 15 App Router, Core Web Vitals
+
+---
+
+## 🏢 Arise Cloud Solutions
+
+I am the founder of **[Arise Cloud Solutions](https://github.com/arisecloudsolutions)** — a product & services company delivering:
+
+- 🌐 **Production web apps** — Next.js 15, PWA, multi-language, SEO-first
+- 🏛 **Cloud infrastructure** — IaC, Kubernetes, multi-cloud
+- 💼 **Enterprise platforms** — Multi-tenant CRM, lead generation, document conversion
+- 🛠 **AI & automation tools** — MCP servers, Claude AI integrations
+
+---
+
+## 🔗 Let's Connect
+
+| | |
+|---|---|
+| 💼 **LinkedIn** | [linkedin.com/in/leonardo-maia-costa](https://linkedin.com/in/leonardo-maia-costa) |
+| 🌐 **Website** | [fpinfo.com.br](https://fpinfo.com.br) |
+| 🏢 **Company** | [Arise Cloud Solutions](https://github.com/arisecloudsolutions) |
+| 📍 **Location** | Curitiba, Brazil · **Open to Remote Worldwide** |
+| 🗣 **Languages** | Portuguese (native) · English (professional) |
+
+---
+
+<details>
+<summary>🇧🇷 Português — Sobre mim</summary>
+
+## Sobre mim
+
+Desenvolvedor Fullstack Sênior e Arquiteto Cloud com mais de **20 anos de experiência** em soluções de TI de ponta a ponta — do frontend ao Kubernetes, passando por DevOps e integrações complexas.
+
+Fundador da **[Arise Cloud Solutions](https://github.com/arisecloudsolutions)**, onde construo produtos reais para clientes reais: plataformas SaaS, sistemas de geração de leads, CRM multi-tenant e aplicações cloud-native.
+
+**Especialidades:** TypeScript · Go · Next.js 15 · NestJS · Kubernetes · IaC (OpenTofu/Pulumi) · AWS · GCP · DigitalOcean · Keycloak · Kafka · AI/MCP
+
+📍 Curitiba, PR — Aberto a trabalho remoto internacional.
+
+</details>
+
+---
+
+<div align="center">
+
+**Battle-ready solutions · Cloud-agnostic architectures · 20 years of turning complexity into elegant code**
+
+_I survived COBOL. I'll survive your legacy system too._ 💻
+
+</div>
